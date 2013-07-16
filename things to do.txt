@@ -1,0 +1,11 @@
+average of motions of still/tippy toe orientations. during run, if min angle of static => min angle normal, wrong.
+the average min angle of the statics should be saved to compared to the actual angles
+
+
+have to get isolated linear acceleration of arm swings
+have baseline: over a specific amount of time, over specific distance (angular distance), x and y acceleration
+interpolate over differnt time and different angular distance (larger angle for ex when runnig faster), get x and y acc
+(only really care about x and y axis)
+
+subtract lin acc from isolated arm swings from normal run lin acc
+(only really care about x and y axis)
