@@ -9,3 +9,21 @@ interpolate over differnt time and different angular distance (larger angle for 
 
 subtract lin acc from isolated arm swings from normal run lin acc
 (only really care about x and y axis)
+
+
+FOCUS:
+
+INSTEAD OF CUTTING THE DATA YOURSELF, INPUT THE WHOLE DATA WITH A SPEED FILTER (TAKE DATA IF MOVING)
+KEEP THE WHOLE FILE, JUST DON'T ADD TO TEH PEAKS!
+
+
+FOR ACCELERATION ISOLATION:
+
+CAN USE TIPPY TOE STATIC INFO TO ISOLATE X-AXIS LIN ACC SINCE NOT MOVING HORIZONTALLY. CAN'T DO Y-AXIS CAUSE JUMPING UP AND DOWN
+
+
+
+
+THOUGHTS:
+
+sincee left arm movement is very significant, maybe look at linear acceleration of right foot when left arm is in line with body.
